@@ -5,7 +5,7 @@ from sklearn.tree import DecisionTreeClassifier # type: ignore
 from sklearn import metrics # type: ignore
 from sklearn.tree import plot_tree # type: ignore
 import matplotlib.pyplot as plt # type: ignore
-
+# 
 # Sample data
 data = {
     'Age': [25, 45, 35, 50, 23, 32, 40, 60, 22, 35],
