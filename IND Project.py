@@ -1,10 +1,10 @@
 # Import necessary libraries
 import pandas as pd # type: ignore
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-from sklearn import metrics
-from sklearn.tree import plot_tree
-import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split # type: ignore
+from sklearn.tree import DecisionTreeClassifier # type: ignore
+from sklearn import metrics # type: ignore
+from sklearn.tree import plot_tree # type: ignore
+import matplotlib.pyplot as plt # type: ignore
 
 # Sample data
 data = {
